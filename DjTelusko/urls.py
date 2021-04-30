@@ -22,6 +22,8 @@ urlpatterns = [
     path('',include('travello.urls')),
     path('accounts/',include('accounts.urls')),
     path('admin/', admin.site.urls),
+    path('calc/',include('calc.urls')),
+
 ]
 
 #add media url from settings

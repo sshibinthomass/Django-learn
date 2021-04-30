@@ -50,4 +50,4 @@ def login(request):
 
 def logout(request):
     auth.logout(request)
-    return render(request,'index.html')
+    return redirect('/')
