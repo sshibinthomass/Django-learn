@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0;
-  background-color: rgba(220, 245, 237, 0.493);
+  background-color: rgba(223, 231, 178, 0.493);
 }
 
 .container {
@@ -11,15 +11,16 @@ body {
 }
 
 header {
-  margin: 0px;
+  margin-bottom: 20px;
   padding: 0px;
   background-color: rgba(37, 36, 110, 0.603);
   border-bottom: tomato 5px solid;
 }
 
 header h3 {
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   float: left;
+  text-transform: uppercase;
 }
 header a {
   color: rgb(16, 25, 34);
@@ -34,5 +35,26 @@ header li {
 }
 
 .login {
-  background-color: yellow;
+  padding: 20px;
+  margin: auto;
+  width: 20%;
+  border: tomato 3px dotted;
+}
+
+.current {
+  color: rgb(172, 0, 0);
+  font-weight: bold;
+}
+
+.login input {
+  width: 50%;
+  height: 20px;
+  padding: 3px;
+  margin: auto;
+}
+
+.center {
+  margin: 0;
+  padding-left: 30%;
+  left: 50%;
 }
